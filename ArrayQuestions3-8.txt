@@ -1,0 +1,7 @@
+Questions :
+3) WAP to accept the names of 10 cities and their respective rainfall. Display the name of the city that has maximum rainfall
+4) WAP to accept 10mnumbers in an SDA, Calculate and display the sum of the elements in the array. 
+5) WAP to accept 10 numbers in a SDA, display the largest and the smallest value of array
+6) WAP to accept 10 numbers in an SDA, display only the palindrome numbers of the array.
+7. WAP to accept a word from the user and store it in a string array. Display the array.
+8. WAP to accept a sentence from the user and store it in a string array. Display only the words which begin with a consonant.
