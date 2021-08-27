@@ -12,31 +12,29 @@ n[] = {2,6,16,20,25}
 com[]={6,16}
 */
 
-public class common
-{
-    public static void main(String[] args)
-    {
-        int k[] = {5,6,8,10,16};
-        int a[] = {2,6,16,20,25};
-        int x[] = {};
-        int n = 5;
- 
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < n; j++)
+public class Main {
+  public static void main(String[] args) {
+
+    int[] num = {1, 2, 3, 4, 5};
+    int[] num2 = {6,7,5,3,1};
+    int[] x = {};
+
+    for (int n : num2) {
+        for (int i : num){
+            if (i == n)
             {
-                if(a[i].equals(x[i]))
-                {
-                  int ele = a[i];
                   int n = x.length();
-                  int x[] = add_element(n, x, ele);
-                }
+                  int x[] = add_element(5, num, i);
             }
         }
- 
-        System.out.println(x[]);   
     }
-    public static int[] add_element(int n, int myarray[], int ele) 
+    
+  //  if(found)
+   //   System.out.println(toFind + " is found.");
+   // else
+   //   System.out.println(toFind + " is not found.");
+  }
+  public static int[] add_element(int n, int myarray[], int ele) 
     { 
          int i; 
          int newArray[] = new int[n + 1]; 
