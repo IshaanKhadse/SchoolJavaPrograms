@@ -12,29 +12,29 @@ n[] = {2,6,16,20,25}
 com[]={6,16}
 */
 
-public class CommonElements
+public class common
 {
     public static void main(String[] args)
     {
         int k[] = {5,6,8,10,16};
- 
         int a[] = {2,6,16,20,25};
         int x[] = {};
+        int n = 5;
  
-        for (int i = 0; i < k.length; i++)
+        for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j < a.length; j++)
+            for (int j = 0; j < n; j++)
             {
                 if(a[i].equals(x[i]))
                 {
-                  ele = a[i];
+                  int ele = a[i];
                   int n = x.length();
                   int x[] = add_element(n, x, ele);
                 }
             }
         }
  
-        System.out.println(set);     //OUTPUT : [THREE, FOUR, FIVE]
+        System.out.println(x[]);   
     }
     public static int[] add_element(int n, int myarray[], int ele) 
     { 
