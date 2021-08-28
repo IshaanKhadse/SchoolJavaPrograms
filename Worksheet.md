@@ -4,7 +4,7 @@ August 28, 2021
 ## Question 1
 1. State any two tokens of Java with an example. 
 2. Predict the output of the following statement in Java where `int n1=15, n2=20;`
-   ```
+   ```java
    System.out.println((n1<n2)&&(n1==5));
    ```
 3. How are primitive data types passed in Java?
@@ -24,7 +24,7 @@ August 28, 2021
 
 ## Question 3
 1. Predict the output of the following program code (show working)
-   ```
+   ```java
    int s = 0;
    int a[] = {2,4,6,8};
    for (int i=0; i <= 1; i++)
@@ -34,7 +34,7 @@ August 28, 2021
    }
    ```
 2. Predict the output of the following code (show working)
-   ```
+   ```java
    int val = 0;
    int ctr = 1;
    val = ++ctr;
@@ -42,7 +42,7 @@ August 28, 2021
    ```
 3. Given the following statement - `final double pi = 3.14;`, what does the keyword `final` signify?
 4. Rewrite the following program code using `for` statement.
-   ```
+   ```java
    int amt=0;
    while(amt>0)
    {
