@@ -1,5 +1,5 @@
 # Practice Questions
-date: 28 August 2021
+August 28, 2021
 
 ## Question 1
 1. State any two tokens of Java with an example. 
