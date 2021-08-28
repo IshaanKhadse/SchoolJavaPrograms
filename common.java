@@ -12,37 +12,39 @@ n[] = {2,6,16,20,25}
 com[]={6,16}
 */
 
+import java.util.*;
 public class Main {
   public static void main(String[] args) {
 
     int[] num = {1, 2, 3, 4, 5};
     int[] num2 = {6,7,5,3,1};
-    int[] x = {};
+    int x[] = {};
 
-    for (int n : num2) {
-        for (int i : num){
-            if (i == n)
-            {
-                  int n = x.length();
-                  int x[] = add_element(5, num, i);
+    for (int i = 0; i < 5; i++){
+        for (int j = 0; j<5; j++){
+            if (num[i] == num2[j]){
+                int numx = num[i];
+               int k = 0;
+               k = x.length;
+               System.out.println(numx);
+               x = addelement(k,x,numx);
+
             }
         }
     }
-    
-  //  if(found)
-   //   System.out.println(toFind + " is found.");
-   // else
-   //   System.out.println(toFind + " is not found.");
+    String printed = Arrays.toString(x);
+    System.out.println(printed);
   }
-  public static int[] add_element(int n, int myarray[], int ele) 
-    { 
-         int i; 
-         int newArray[] = new int[n + 1]; 
-        for (i = 0; i<n; i++){
-              newArray[i] = myarray[i]; 
-        }
-         newArray[n] = ele; 
- 
-        return newArray; 
-    } 
+ public static int[] addelement(int n, int arr[], int x)
+    {
+        int i;
+        int newarr[] = new int[n + 1];
+        for (i = 0; i < n; i++)
+            newarr[i] = arr[i];
+
+        newarr[n] = x;
+        return newarr;
+    }
 }
+
+/*Kanha Korgaonkar*/
