@@ -51,7 +51,7 @@ August 28, 2021
    }
    ```
 5. Predict the output of the following program code. 
-   ```
+   ```java
    void t3()
    {
        int a = 25;
@@ -60,7 +60,7 @@ August 28, 2021
        
 6. Write the definition of a function `int sum(int x)` which calculates and returns the sum of the digits present in `x`.
 7. Predict the output of the following program code. (show the working)
-   ```
+   ```java
    void main ()
    {
         for(int ctr = 1; ctr <= 10; ctr++)
@@ -72,7 +72,7 @@ August 28, 2021
         }
     }
 8. Write the equivalent `while` loop for the following.
-   ```
+   ```java
    for (; ;)
    {
         System.out.println("Welcome");
