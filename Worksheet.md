@@ -1,5 +1,5 @@
 # Practice Questions
-#
+
 ## Question 1
 1. State any two tokens of Java with an example. 
 2. Predict the output of the following statement in Java where `int n1=15, n2=20;`
@@ -57,5 +57,25 @@
        if (a>25)
            a++;
        
-
-
+6. Write the definition of a function `int sum(int x)` which calculates and returns the sum of the digits present in `x`.
+7. Predict the output of the following program code. (show the working)
+   ```
+   void main ()
+   {
+        for(int ctr = 1; ctr <= 10; ctr++)
+        {
+             System.out.print(ctr+" ");
+             if (ctr%2 == 0)
+                 continue;
+             System.out.println(" ");
+        }
+    }
+8. Write the equivalent `while` loop for the following.
+   ```
+   for (; ;)
+   {
+        System.out.println("Welcome");
+   }
+   ```
+9. Differentiate between Type Casting and Coercion in Java with an example.
+10. Why is Java called a _Platform Independent Language_?
