@@ -185,11 +185,13 @@ As there are no curly braces after the for loop so only the statement m++; is in
 ## Question 4
 
 Analyze the following program segment and determine how many times the loop will be executed. What will be the output of the program segment?
-
+```java
 int k=1,i=2;
 while(++i<6)
 k*=i;
 System.out.println(k);
+```
+
 Output
 
 60
@@ -203,12 +205,13 @@ i	k	Remarks
 4	12	2nd Iteration
 5	60	3rd Iteration
 6	60	Once i becomes 6, condition is false and loop stops iterating.
-Notice that System.out.println(k); is not inside while loop. As there are no curly braces so only the statement k *= i; is inside the loop. The statement System.out.println(k); is outside the while loop, it is executed once and prints value of k which is 60 to the console.
+
+Notice that `System.out.println(k);` is not inside while loop. As there are no curly braces so only the statement `k *= i;` is inside the loop. The statement `System.out.println(k);` is outside the while loop, it is executed once and prints value of k which is 60 to the console.
 
 Question 5
 
 Give the output of the following program segment and also mention the number of times the loop is executed.
-
+```java
 int a,b;
 for(a=6;b=4; a <= 4; a=a+ 6)
 {
@@ -216,6 +219,8 @@ if(a%b==0)
 break;
 }
 System.out.println(a);
+```
+
 Output
 
 6
@@ -225,16 +230,17 @@ Explanation
 
 a is initialized to 6 and as the loop condition is false before the first iteration itself so the loop doesn't execute.
 
-Question 6
+## Question 6
 
 Give the output of the following program segment and also mention how many times the loop is executed.
-
+```java
 int i;
 for(i = 5; i > 10; i++)
 System.out.println(i);
 System.out.println(i * 4);
-Output
+```
 
+Output: 
 20
 The loop executes 0 times.
 
@@ -242,12 +248,12 @@ Explanation
 
 i is initialized to 5 and as the loop condition is false before the first iteration itself so the loop doesn't execute. The statement System.out.println(i * 4); is outside the loop so it gets executed once, printing 20 to the console.
 
-Rewrite the following programs
+# Rewrite the following programs
 
-Question 1
+## Question 1
 
 Using for loop:
-
+```java
 int i=1;
 int d=5;
 do
@@ -257,17 +263,21 @@ System.out.println(d);
 i++;
 }
 while (i<=5);
+```
+
 Answer
 
+```java
 int d=5;
 for (int i = 1; i <= 5; i++) {
     d=d*2;
     System.out.println(d);
 }
-Question 2
+```
+## Question 2
 
 Using while loop:
-
+```java
 import java.util.*;
 class Number
 {
@@ -286,8 +296,10 @@ System.out.println(r);
 while(n!=0); 
 }
 }
+```
 Answer
 
+```java
 import java.util.*;
 class Number
 {
@@ -304,3 +316,4 @@ class Number
         }
     }
 }
+```
