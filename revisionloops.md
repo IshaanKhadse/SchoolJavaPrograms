@@ -55,6 +55,19 @@ public class Test_1
        
        }
     }
+} 
+```
+## Question 2
+```java
+public class Term1
+{
+    static void m1()
+    {
+        int s=0;
+        for (int i=1; i<=10; i++)
+            System.out.println("s="+s+i);
+     }
 }
-}                         
+            
+              
 ```
