@@ -28,7 +28,7 @@ System.out.println(z + " " + x + " " + y);
 `c=a⁵+d*3/2k - √d`
 
 4. Do as directed.
-   a. State the keyword that allows users to use a package in Java.
+   a. State the keyword that allows users to use a package in Java.  
    b. State the default package in Java.
    
 5. `int a[] = {5,8,9,7,0};` Can you perform binary search on the given array? Justify your answer.
@@ -39,7 +39,7 @@ System.out.println(z + " " + x + " " + y);
    b. `System.out.println(!(k>m));`
 9. Predict the output of the following. 
    a. `System.out.println(Math.floor(q++ * -2));` if `int q = 3;`.
-   b. `System.out.println("WONDERFUL".substring(6));
+   b. `System.out.println("WONDERFUL".substring(6));`
 
 
 
